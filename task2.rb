@@ -1,8 +1,8 @@
 class　People
-     def initialize
+    def initialize
         p "peopleのインスタンスが作成されました"
     end
-     def self.greeet
+    def self.greeet
         p "私はpeopleクラスです"
     end
     attr_accessor :name
